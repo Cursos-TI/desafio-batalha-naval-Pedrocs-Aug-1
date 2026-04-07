@@ -31,7 +31,7 @@ int main()
     {   
         for (int validadorH = 0; validadorH < 3; validadorH++)
         {
-            if (tabuleiro[linhaNavioHorizontal + validadorH][colunaNavioHorizontal] != 0)
+            if (tabuleiro[linhaNavioHorizontal][colunaNavioHorizontal + validadorH] != 0)
             {
                 printf("Não é possivel posicionar o navio horizontal na pocição %d %d, escolha outra posição.\n", linhaNavioHorizontal, colunaNavioHorizontal);
                 return 0; // Encerra o programa se houver sobreposição
