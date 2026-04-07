@@ -66,7 +66,7 @@ int main()
     }
     else
     {
-        printf("Não é possivel posicionar o navio horizontal na pocição %d %d, escolha outra posição.\n", linhaNavioHorizontal, colunaNavioHorizontal);
+        printf("Não é possivel posicionar o navio vertical na pocição %d %d, escolha outra posição.\n", linhaNavioVertical, colunaNavioVertical);
     }
 
     // Imprime o tabuleiro
