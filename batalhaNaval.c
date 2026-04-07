@@ -3,8 +3,8 @@
 int main()
 {
     // Variaveis para o tabuleiro coluna e linha
-    char coluna[11] = {' ', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
-    char linha[11] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    char coluna[] = {' ', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
+    char linha[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
     // variavel para o tabuleiro, onde 0 representa água.
     int tabuleiro[10][10] = {
